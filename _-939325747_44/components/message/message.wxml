@@ -1,0 +1,6 @@
+<view class="i-class i-message i-message-{{type}} {{visible?'i-message-show':''}}" style="top:{{isX?'258rpx':''}}">
+    <i class="icon ic_General_announcem cast"></i>
+    <view class="content">
+        {{content}}
+    </view>
+</view>

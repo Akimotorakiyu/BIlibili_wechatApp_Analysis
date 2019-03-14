@@ -1,0 +1,54 @@
+@import "../../__wuBaseWxss__/0.wxss";
+
+.i-message {
+    display: none;
+    width: 100%;
+    heitgh: 146rpx;
+    position: fixed;
+    top: 216rpx;
+    left: 0;
+    background: #FFFBF0;
+    color: #FAAB4B;
+    z-index: 1010;
+    opacity: 0;
+    transition: all .1s ease-in-out;
+}
+
+.i-message-show {
+    -webkit-transform: translateZ(0) translateY(0);
+    opacity: 1;
+    display: block;
+}
+
+.i-message-default {
+    background: #FFFBF0;
+}
+
+.i-message-success {
+    background: #19be6b;
+}
+
+.i-message-warning {
+    background: #f90;
+}
+
+.i-message-error {
+    background: #ed3f14;
+}
+
+.content {
+    width: 646rpx;
+    height: 102rpx;
+    margin: 22rpx 24rpx 22rpx 80rpx;
+    font-size: 28rpx;
+    line-height: 34rpx;
+}
+
+.cast {
+    font-size: 44rpx;
+    color: #FAAB4B;
+    position: fixed;
+    top: 6rpx;
+    left: 24rpx;
+    z-index: 11111;
+}

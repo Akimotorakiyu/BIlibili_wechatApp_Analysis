@@ -1,0 +1,9 @@
+<custbar section="pgcdetail"></custbar>
+<view class="up404">
+    <image src="../../image/down404.png" style="height:220rpx;width:420rpx;margin-top:60rpx;"></image>
+    <view class="text404">{{uptext}}</view>
+</view>
+<view class="down404" style="height:{{Sheight}}px;">
+    <image src="../../image/up404.png" style="height:316rpx;width:560rpx;margin-top:122rpx;"></image>
+    <view class="textdown404">页面加载失败</view>
+</view>
